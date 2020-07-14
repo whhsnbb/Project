@@ -1,6 +1,6 @@
 import java.io.*;
 
-//用IO流模仿试用版软件的次数提示
+//用IO流模仿试用版软件的次数提示！
 
 public class Demo_Test18 {
     public static void main(String[] args) throws IOException {
