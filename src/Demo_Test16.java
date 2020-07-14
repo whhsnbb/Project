@@ -1,3 +1,5 @@
+//装饰设计模式的模板
+
 public class Demo_Test16 {
     public static void main(String[] args){
         DaLao dalao = new DaLao(new Student());
