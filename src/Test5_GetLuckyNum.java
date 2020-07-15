@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-//约瑟夫环，获取幸运数字
+//-约瑟夫环，获取幸运数字
 
 public class Test5_GetLuckyNum {
 
