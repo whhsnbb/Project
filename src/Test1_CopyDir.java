@@ -1,6 +1,8 @@
 import java.io.*;
 import java.util.Scanner;
 
+//复制文件夹到指定位置
+
 public class Test1_CopyDir {
         public static void main(String[] args) throws IOException {
                 File father = getDir();

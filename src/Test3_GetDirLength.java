@@ -1,6 +1,8 @@
 import java.io.File;
 import java.util.Scanner;
 
+//获取文件夹大小
+
 public class Test3_GetDirLength {
     public static void main(String[] args){
         File dir = getDir();

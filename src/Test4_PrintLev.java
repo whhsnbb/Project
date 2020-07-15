@@ -1,6 +1,8 @@
 import java.io.File;
 import java.util.Scanner;
 
+//按层级打印文件夹
+
 public class Test4_PrintLev {
     public static void main(String[] args){
         File dir =getDir();

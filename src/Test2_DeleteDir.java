@@ -1,6 +1,8 @@
 import java.io.File;
 import java.util.Scanner;
 
+//É¾³ıÎÄ¼ş¼Ğ
+
 public class Test2_DeleteDir {
     public static void main(String[] args){
         File dir =getDir();
