@@ -1,0 +1,3 @@
+name=whh
+tel=110
+qq=10001
