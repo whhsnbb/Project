@@ -1,4 +1,4 @@
-//礼让线程，效果不明显，仅作了解
+//--礼让线程，效果不明显，仅作了解
 
 public class Demo_Yield {
     public static  void main(String[] args){

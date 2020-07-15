@@ -1,4 +1,4 @@
-//-设置线程优先级
+//--设置线程优先级
 
 public class Demo_SetPriority {
     public static void main(String[] args){

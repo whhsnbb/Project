@@ -1,22 +1,20 @@
+import java.io.IOException;
+
 public class Demo_Synchronized {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Printer  p = new Printer();
 
-        Thread t1 = new Thread(){
-            public void run(){
-                while(true){
-                    p.Print2();
-                }
+        Thread t1 = new Thread(() -> {
+            while(true){
+                p.Print2();
             }
-        };
+        });
 
-        Thread t2 = new Thread(){
-            public void run(){
-                while(true){
-                    p.Print1();
-                }
+        Thread t2 = new Thread(() -> {
+            while(true){
+                p.Print1();
             }
-        };
+        });
 
         t1.start();
         t2.start();
@@ -24,9 +22,9 @@ public class Demo_Synchronized {
 }
 
 class Printer{
-    Demo d = new Demo();
+    final Demo d = new Demo();
     void Print1(){
-        synchronized (d) {           //锁对象可以是任意对象，但是不可以使用匿名对象，因为两个用的不是同一个对象
+        synchronized (d) {           //--锁对象可以是任意对象，但是不可以使用匿名对象，因为两个用的不是同一个对象
             System.out.print("黑");
             System.out.print("黑");
             System.out.print("黑");
