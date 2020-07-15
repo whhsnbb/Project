@@ -1,3 +1,5 @@
+//-加入线程
+
 public class Demo_Join {
     public static void main(String[] args){
 

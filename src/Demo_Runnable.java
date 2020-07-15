@@ -4,7 +4,7 @@
 public class Demo_Runnable {
     public static void main(String[] args){
         /*
-        * 也可以使用匿名内部类完成线程
+        * -也可以使用匿名内部类完成线程
         * new Thread(new Runnable(){
         *   public void run(){
         *       for(int i = 0 ; i < 1000 ; i ++){

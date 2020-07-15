@@ -1,4 +1,4 @@
-//守护线程
+//-守护线程
 
 public class Demo_SetDaemon {
     public static void main(String[] args){

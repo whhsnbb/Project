@@ -1,3 +1,5 @@
+//获取当前进行的线程
+
 public class Demo_CurrentThread {
     public static void main(String[] args){
 

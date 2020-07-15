@@ -1,4 +1,4 @@
-//休眠线程
+//-休眠线程
 
 public class Demo_Sleep {
     public static void main(String[] args){
